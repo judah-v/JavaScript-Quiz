@@ -1,0 +1,78 @@
+body {
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.panel {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: navy;
+    background-color: rgba(70, 68, 105, 0.456);
+    border-radius: 5px;
+    max-width: 70%;
+    margin: auto;
+    
+}
+.options label {
+    background: #f7fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    width: 90%;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.choices-div {
+    width: 100%;
+    margin: 10px 30px;
+    
+}
+.options label:hover {
+    background: #edf2f7;
+    border-color: #667eea;
+}
+
+.options input[type="radio"] {
+    margin-right: 10px;
+}
+
+.question {
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.options {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px 20px;
+}
+
+button {
+    margin: 2% auto;
+    justify-self: center;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4f98c2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: #4f98c2;
+    background-color: white;
+    border: 1 px solid #4f98c2;
+}
+
+#score {
+    font-size: 30px;
+    color: darkslategray;
+}
